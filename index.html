@@ -11,25 +11,31 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- шапка -->
     <header>
-      <a class="logo" href="" lang="en"
-        ><span class="logo-color">Web</span> <span class="logo-header">Studio</span>
-      </a>
-      <nav>
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="link current">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+      <div class="container">
+        <a class="logo" href="" lang="en"
+          ><span class="logo-color">Web</span> <span class="logo-header">Studio</span>
+        </a>
+        <nav>
+          <ul class="site-nav list">
+            <li><a href="./index.html" class="link current">Студия</a></li>
+            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts list">
+          <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-      <ul class="contacts list">
-        <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <!-- контент -->
     <main>
@@ -112,17 +118,19 @@
     </main>
     <!-- подвал -->
     <footer class="footer">
-      <a class="logo" href="" lang="en"
-        ><span class="logo-color">Web</span> <span class="logo-footer">Studio</span>
-      </a>
-      <address class="address">
-        <a href="https://goo.gl/maps/GyggzFE7eTkepQ136" class="address-link office"
-          >г. Киев, пр-т Леси Украинки, 26</a
-        >
-        <br />
-        <a href="mailto:info@example.com" class="address-link">info@example.com</a><br />
-        <a href="tel:+380991111111" class="address-link">+38 099 111 11 11</a>
-      </address>
+      <div class="container">
+        <a class="logo" href="" lang="en"
+          ><span class="logo-color">Web</span> <span class="logo-footer">Studio</span>
+        </a>
+        <address class="address">
+          <a href="https://goo.gl/maps/GyggzFE7eTkepQ136" class="address-link office"
+            >г. Киев, пр-т Леси Украинки, 26</a
+          >
+          <br />
+          <a href="mailto:info@example.com" class="address-link">info@example.com</a><br />
+          <a href="tel:+380991111111" class="address-link">+38 099 111 11 11</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
