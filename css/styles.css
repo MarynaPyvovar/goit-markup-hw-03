@@ -152,7 +152,12 @@ body {
   margin-top: 0;
   margin-bottom: 94px;
 }
-
+.benefits-list {
+  display: flex;
+}
+.benefits-list .item + .item {
+  margin-left: 30px;
+}
 .benefits-list .title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -165,6 +170,7 @@ body {
 }
 .benefit {
   margin-top: 0;
+  margin-bottom: 0;
   font-size: 14px;
   line-height: 1.74;
   letter-spacing: 0.03em;
@@ -181,6 +187,12 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.work-type {
+  display: flex;
+}
+.work-type .item + .item {
+  margin-left: 30px;
+}
 
 /* =====наша команда===== */
 .section.team,
@@ -190,6 +202,12 @@ body {
 }
 .team {
   background-color: var(--background-btn-p);
+}
+.member-list {
+  display: flex;
+}
+.member-list .member-card + .member-card {
+  margin-left: 30px;
 }
 .member-card {
   width: 270px;
