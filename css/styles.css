@@ -263,20 +263,44 @@ body {
 }
 
 /* =====portfolio===== */
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.filter .item + .item {
+  margin-left: 8px;
+}
 .btn-p {
   padding: 6px 22px;
   color: var(--title-color);
   background-color: var(--background-btn-p);
+  border-color: transparent;
 }
 .btn-p:hover,
 .btn-p:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
+
+.example-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 .example-card {
-  width: 370px;
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
   background-color: var(--example-card-color);
 }
+.example-card:nth-child(3n) {
+  margin-right: 0;
+}
+.example-card:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
 .card-description {
   width: 322px;
   margin: 20px 24px;
