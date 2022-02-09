@@ -244,8 +244,15 @@ body {
 .logo-footer {
   color: var(--white-color);
 }
-
+.footer .logo {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 .address-link {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 9px;
   color: var(--contact-color);
   font-style: normal;
   font-weight: 400;
@@ -253,6 +260,9 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+.address-link:last-child {
+  margin-bottom: 0;
 }
 .office {
   color: var(--white-color);
@@ -263,6 +273,10 @@ body {
 }
 
 /* =====portfolio===== */
+
+.portfolio-title {
+  text-align: center;
+}
 
 .filter {
   display: flex;
